@@ -1,0 +1,43 @@
+/* login */
+#login{
+    background-color: gray;
+    height: 500px;
+}
+.login-parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:gold;
+    padding: 50px 150px;
+    text-align: center;
+}
+form input{
+    display: block;
+    width: 260px;
+    height: 25px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+form input [type="submit"]{
+   font-size: 50px;
+}
+.login-parent button{
+   padding: 8px 55px;
+   border-radius: 10px;
+   background-color: #000;
+   border: none;
+   cursor: pointer;
+}
+.login-parent span {
+   display: block;
+   margin-top: 8px;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+.login-parent span a{
+    color: red;
+}
